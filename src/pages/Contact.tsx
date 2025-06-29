@@ -95,7 +95,7 @@ const Contact = () => {
                 <h3 className={`text-lg font-bold mb-2 ${method.highlight ? 'text-white' : 'text-gray-900'}`}>
                   {method.title}
                 </h3>
-                <p className={`text-xl font-bold mb-2 ${method.highlight ? 'text-white' : 'text-blue-600'}`}>
+                <p className={`text-xl font-bold mb-2 break-words ${method.highlight ? 'text-white' : 'text-blue-600'}`}>
                   {method.value}
                 </p>
                 <p className={`text-sm ${method.highlight ? 'text-orange-100' : 'text-gray-600'}`}>
